@@ -6,5 +6,11 @@
     Returns:
         bool
 */
+bool func( int a ){
+    bool taqqos_lash = a == 7;
+    return taqqos_lash;
+}
 
-void main() {}
+void main() {
+    print(func(335));
+}
