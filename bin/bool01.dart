@@ -7,9 +7,14 @@
   Returns:
       bool
   */
+bool func( int a, int b ){
+  bool teng_lik = a == b;
+  return teng_lik;
+}
 
-
-void main() {}
+void main() {
+  print(func(12, 15));
+}
 
 
 
