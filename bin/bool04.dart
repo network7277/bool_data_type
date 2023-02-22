@@ -6,5 +6,11 @@
     Returns:
         bool
     */
+bool func( double a ){
+    bool negative = a < 0;
+    return negative;
+}
 
-void main() {}
+void main() {
+    print(func(5));
+}
