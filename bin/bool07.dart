@@ -8,8 +8,8 @@
         bool
     */
 bool func( int a, int b ){
-    bool not_equal = a != b;
-    return not_equal;
+    bool teng_emas = a != b;
+    return teng_emas;
 }
 
 void main() {
