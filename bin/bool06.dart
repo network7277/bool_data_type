@@ -6,5 +6,10 @@
     Returns:
         bool
     */
+bool func( int a ){
+    bool juft_son = a % 2 == 0;
+}
 
-void main() {}
+void main() {
+    print(func( 6 ));
+}
