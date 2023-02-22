@@ -7,5 +7,11 @@
     Returns:
         bool
     */
+bool func( int a, int b ){
+    bool not_equal = a != b;
+    return not_equal;
+}
 
-void main() {}
+void main() {
+    print(func( 4, 5 ));
+}
