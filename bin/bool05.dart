@@ -6,5 +6,11 @@
     Returns:
         bool
     */
+bool func( int a ){
+    bool toq_son = a % 2 == 1;
+    return toq_son;
+}
 
-void main() {}
+void main() {
+    print(func(9));
+}
