@@ -7,7 +7,7 @@
         bool
     */
 bool func( int a ){
-    bool positiv_number = a >= 0;
+    bool positiv_number = a == 0 && a > 0;
     return positiv_number;
 }
 
