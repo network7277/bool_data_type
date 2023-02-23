@@ -8,6 +8,7 @@
     */
 bool func( int a ){
     bool juft_son = a % 2 == 0;
+    return juft_son;
 }
 
 void main() {
