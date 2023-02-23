@@ -6,5 +6,10 @@
     Returns:
         bool
     */
+bool func(int a){
+    bool natural_num = a > 0;
+}
 
-void main() {}
+void main() {
+    print(func(-1));
+}
