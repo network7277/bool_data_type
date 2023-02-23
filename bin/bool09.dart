@@ -8,6 +8,7 @@
     */
 bool func(int a){
     bool natural_num = a > 0;
+    return natural_num;
 }
 
 void main() {
